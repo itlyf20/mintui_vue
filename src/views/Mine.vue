@@ -1,50 +1,57 @@
 <template>
   <div class="mine">
 	<mt-header title="我的"></mt-header>
-      <ul class="nav">
-		  <li class="nav-item" style="margin-top: -12px;">
-			<mt-cell title="学习兴趣" is-link>
-				<img slot="icon" src="../assets/logo.png" width="24" height="24">
-			</mt-cell>
+		<ul class="nav">
+			  <li class="nav-item-title" style="margin-top: -14px;">
+				<mt-cell title="Taurus" label="账号:lyf593" is-link>
+					<img slot="icon" src="../assets/shouye_d.png" width="24" height="24">
+				</mt-cell>
+			  </li>
+		</ul>
+		
+		  <ul class="nav">
+			  <li class="nav-item">
+				<mt-cell title="学习兴趣" is-link>
+					<img slot="icon" src="../assets/logo.png" width="24" height="24">
+				</mt-cell>
+			  </li>
+		  </ul>
+		<ul class="nav">
+		  <li class="nav-item">
+			 <mt-cell title="消息中心"  is-link>
+				 <img slot="icon" src="../assets/logo.png" width="24" height="24">
+			 </mt-cell>
 		  </li>
-      </ul>
-
-    <ul class="nav">
-      <li class="nav-item">
-         <mt-cell title="消息中心"  is-link>
-			 <img slot="icon" src="../assets/logo.png" width="24" height="24">
-         </mt-cell>
-      </li>
-    </ul>
-    <ul class="nav">
-      <li class="nav-item">
-         <mt-cell title="我的余额" is-link>
-			 <img slot="icon" src="../assets/logo.png" width="24" height="24">
-         </mt-cell>
-      </li>
-      <li class="nav-item">
-          <mt-cell title="我的优惠券" is-link>
-			  <img slot="icon" src="../assets/logo.png" width="24" height="24">
-          </mt-cell>
-      </li>
-      <li class="nav-item">
-         <mt-cell title="在线学习流量" is-link>
-			 <img slot="icon" src="../assets/logo.png" width="24" height="24">
-         </mt-cell>
-      </li>
-    </ul>
-    <ul class="nav">
-      <li class="nav-item">
-         <mt-cell title="手机账号绑定" is-link>
-			<img slot="icon" src="../assets/logo.png" width="24" height="24">
-         </mt-cell>
-      </li>
-      <li class="nav-item">
-         <mt-cell title="设置" is-link>
-		   	  <img slot="icon" src="../assets/logo.png" width="24" height="24">
-         </mt-cell>
-      </li>
-    </ul>
+		</ul>
+		<ul class="nav">
+		  <li class="nav-item">
+			 <mt-cell title="我的余额" is-link>
+				 <img slot="icon" src="../assets/logo.png" width="24" height="24">
+			 </mt-cell>
+		  </li>
+		  <li class="nav-item">
+			  <mt-cell title="我的优惠券" is-link>
+				  <img slot="icon" src="../assets/logo.png" width="24" height="24">
+			  </mt-cell>
+		  </li>
+		  <li class="nav-item">
+			 <mt-cell title="在线学习流量" is-link>
+				 <img slot="icon" src="../assets/logo.png" width="24" height="24">
+			 </mt-cell>
+		  </li>
+		</ul>
+		<ul class="nav">
+		  <li class="nav-item">
+			 <mt-cell title="手机账号绑定" is-link>
+				<img slot="icon" src="../assets/logo.png" width="24" height="24">
+			 </mt-cell>
+		  </li>
+		  <li class="nav-item">
+			 <mt-cell title="设置" is-link>
+				  <img slot="icon" src="../assets/logo.png" width="24" height="24">
+			 </mt-cell>
+		  </li>
+		</ul>
 	<mt-button type="primary" style="text-align: center;width: 100%;">退出登录</mt-button>
   </div>
 </template>
@@ -54,12 +61,6 @@ export default {
   data(){
     return{
     }
-  },
-  methods:{
-    
-  },
-  computed:{
-   
   }
 }
 </script>
@@ -75,5 +76,13 @@ export default {
 }
 .nav-item{
 	margin-left: -40px;
+}
+.nav-item-title{
+	margin-left: -40px;
+}
+.nav-item-title img{
+	width: 40px;
+	height: 40px;
+	float: left;
 }
 </style>

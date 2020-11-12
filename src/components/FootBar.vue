@@ -26,7 +26,7 @@ export default {
   data(){
 	  return{
 		  // 默认选择第一个
-		  selected:this.$route.path
+		  selected:""
 	  }
   },
   methods:{
